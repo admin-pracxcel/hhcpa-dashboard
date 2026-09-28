@@ -65,7 +65,7 @@ SEO (calls)    = anything else (Organic Search, future values)
 
 | Metric | Rule |
 |---|---|
-| **New patient (website)** | `Are you an existing patient? !== "Yes"` (so `No` AND `-` both count, because `-` means the field didn't exist when they submitted) |
+| **New patient (website)** | `New Patient === "Yes"` (case-insensitive, trimmed). Manually tagged column on both the `Book Appointment` and `Contact` tabs. `No`, blank, and any other value are dropped **server-side** in `sheets.js` — those rows never reach the client at all. |
 | **New patient (calls)** | `Tags === "New Patient"` |
 | **Missed opportunity** | `Tags === "Missed Opportunity"` (calls only) |
 | **Total new patients** | website new + calls new across all sources, within the active date range |
