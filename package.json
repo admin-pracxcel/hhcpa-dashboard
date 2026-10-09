@@ -1,5 +1,5 @@
 {
-  "name": "parabanks-dashboard",
+  "name": "hhcpa-dashboard",
   "private": true,
   "type": "module",
   "workspaces": ["server", "client"],
