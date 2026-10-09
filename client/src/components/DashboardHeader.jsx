@@ -1,15 +1,17 @@
 import { formatTimestamp } from '../lib/format';
+import logo from '../assets/hhcpa-logo.svg';
 
 export default function DashboardHeader({ fetchedAt, isRefreshing, onRefresh }) {
   return (
     <header className="mb-10 animate-fade-in">
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
+          <img src={logo} alt="HHCPA" className="mb-4 h-8 w-auto md:h-10" />
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand">
             IntelliLens
           </p>
-          <h1 className="mt-1 font-display text-4xl md:text-5xl" style={{ color: '#2e3e33' }}>
-            Sage Psychological Services
+          <h1 className="mt-1 font-display text-4xl md:text-5xl" style={{ color: '#04221b' }}>
+            Horizon Health Care Partners Australia
           </h1>
           <p className="mt-2 text-sm text-gray-400">
             Performance Dashboard

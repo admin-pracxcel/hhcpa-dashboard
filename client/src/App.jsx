@@ -323,7 +323,7 @@ export default function App() {
                   compareSeries={highlightsDaily.compare}
                   mainLabel={mainLabel}
                   compareLabel={compareLabel}
-                  mainColor="#2e3e33"
+                  mainColor="#04221b"
                   compareColor="#9CA3AF"
                 />
               </div>
@@ -382,7 +382,7 @@ export default function App() {
                   compareSeries={seoDaily.compare}
                   mainLabel={mainLabel}
                   compareLabel={compareLabel}
-                  mainColor="#2e3e33"
+                  mainColor="#04221b"
                   compareColor="#9CA3AF"
                 />
               </div>
@@ -438,7 +438,7 @@ export default function App() {
                   compareSeries={ppcDaily.compare}
                   mainLabel={mainLabel}
                   compareLabel={compareLabel}
-                  mainColor="#2e3e33"
+                  mainColor="#04221b"
                   compareColor="#9CA3AF"
                 />
               </div>
@@ -449,7 +449,7 @@ export default function App() {
           <LeftCell className="pb-6">
             <div className="border-t border-surface-border pt-6">
               <p className="text-center text-xs text-gray-300">
-                Sage Psychological Services — IntelliLens
+                Horizon Health Care Partners Australia — IntelliLens
               </p>
             </div>
           </LeftCell>

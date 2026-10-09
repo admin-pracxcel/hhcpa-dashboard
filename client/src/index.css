@@ -52,14 +52,14 @@
   /* Ambient gradient */
   .bg-mesh {
     background:
-      radial-gradient(ellipse at 15% 0%, rgba(46, 62, 51, 0.06) 0%, transparent 50%),
-      radial-gradient(ellipse at 85% 5%, rgba(13, 148, 136, 0.04) 0%, transparent 50%),
-      radial-gradient(ellipse at 50% 100%, rgba(46, 62, 51, 0.03) 0%, transparent 40%);
+      radial-gradient(ellipse at 15% 0%, rgba(4, 34, 27, 0.06) 0%, transparent 50%),
+      radial-gradient(ellipse at 85% 5%, rgba(88, 237, 162, 0.04) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 100%, rgba(4, 34, 27, 0.03) 0%, transparent 40%);
   }
 
   /* Highlight card accent border (left edge) */
   .accent-left-brand {
-    border-left: 3px solid #2e3e33;
+    border-left: 3px solid #04221b;
   }
   .accent-left-rose {
     border-left: 3px solid #E11D48;
@@ -80,8 +80,8 @@
   }
   input[type="date"]:focus {
     @apply outline-none;
-    border-color: #2e3e33;
-    box-shadow: 0 0 0 2px rgba(46, 62, 51, 0.2);
+    border-color: #04221b;
+    box-shadow: 0 0 0 2px rgba(4, 34, 27, 0.2);
   }
 
   /* Shimmer skeleton */

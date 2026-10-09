@@ -1,4 +1,4 @@
-# Sage Psychological Services — Leads Dashboard
+# Horizon Health Care Partners Australia — Leads Dashboard
 
 Single-page dashboard that pulls lead data live from two Google Sheets and
 shows new patients, missed phone opportunities, and a breakdown by channel

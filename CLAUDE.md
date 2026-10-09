@@ -1,6 +1,6 @@
-# Sage Psychological Services — Leads Dashboard
+# Horizon Health Care Partners Australia — Leads Dashboard
 
-A single-page dashboard for Sage Psychological Services that pulls lead data live from
+A single-page dashboard for Horizon Health Care Partners Australia that pulls lead data live from
 Google Sheets and surfaces three things at a glance: total new patients,
 missed phone opportunities, and a breakdown by channel (SEO vs Google Ads)
 and lead type (Website vs Phone Call).
@@ -100,7 +100,7 @@ SEO (calls)    = anything else (Organic Search, future values)
 ## 3. File layout
 
 ```
-parabanks-dashboard/
+hhcpa-dashboard/
 ├── CLAUDE.md
 ├── README.md
 ├── package.json              # workspaces: client + server
@@ -144,7 +144,7 @@ parabanks-dashboard/
 ## 4. UI sections (top to bottom, single page, no routing)
 
 ### 4.0 Header
-- Title "Parabanks Dental — May 2026"
+- Logo + title "Horizon Health Care Partners Australia"
 - Date range filter (see 4.1)
 - Refresh button + last-updated timestamp
 

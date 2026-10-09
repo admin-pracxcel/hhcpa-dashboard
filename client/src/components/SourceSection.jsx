@@ -2,14 +2,14 @@ import ChannelCard from './ChannelCard';
 
 const config = {
   SEO: {
-    accent: 'text-[#2e3e33]',
-    underline: 'bg-accent-teal',
-    tagBg: 'bg-accent-teal-light text-accent-teal-dark',
+    accent: 'text-[#04221b]',
+    underline: 'bg-accent-mint',
+    tagBg: 'bg-accent-mint-light text-accent-mint-dark',
     websiteIcon: '🌐',
     callIcon: '📞',
   },
   PPC: {
-    accent: 'text-[#2e3e33]',
+    accent: 'text-[#04221b]',
     underline: 'bg-brand',
     tagBg: 'bg-brand-light text-brand-dark',
     websiteIcon: '🎯',
